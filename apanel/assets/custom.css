@@ -1,0 +1,90 @@
+/* Custom CSS */
+.main-sidebar .user-panel {
+	min-height:60px;
+	color:#FFF;
+}
+.pull-left.image i{
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 2px solid #f7f7f7;
+	border-radius: 50px;
+	margin:5px;
+	margin-left:0px;
+}
+.box-body {
+	padding-top:30px;
+}
+
+/* here you can put your own css to customize and override the theme */
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	text-align:center;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #367fa9;	
+	text-decoration: none; /* no underline */
+	color: #367fa9;
+	text-transform:lowercase;
+}
+div.pagination a:hover, div.digg a:active {
+	border: 1px solid #ffffff;
+	text-transform:lowercase;
+	color: #367fa9;
+}
+div.pagination span.current {
+	padding: 2px 7px 2px 7px;
+	margin: 2px;
+	border: 1px solid #367fa9;
+	
+	font-weight: bold;
+	background-color: #367fa9;
+	color: #FFF;
+}
+div.pagination span.disabled {
+	padding: 4px 7px 3px 7px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	color: #999;
+	text-transform:lowercase;
+}
+.btn-primary{
+	background-color: #605ca8;
+	border-color: #605ca8 !important;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover {
+	color: #605ca8;
+	transition: all .3s;
+	background-color: transparent;
+
+}
+.btn-primary:focus{
+	color: #605ca8 !important;
+	transition: all .3s;
+	background-color: inherit !important;
+}
+.btn-danger:hover, .btn-danger:active,.btn-danger:focus, .btn-danger.hover {
+	color: #d73925;
+	transition: all .3s;
+	background-color: transparent;
+
+}
+@media (min-width:768px){}
+
+@media (max-width:991px){}
+
+@media print{}
+
+
+.img_file {
+	height: 70px;
+	border: 1px solid #f7f7f7;
+	width: 100%;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
